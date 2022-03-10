@@ -1,8 +1,10 @@
-package com.barney.kpltpmod2;
+package com.barney.kpltpmod3;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.barney.kpltpmod3.R;
 
 public class MainActivity extends AppCompatActivity {
 
