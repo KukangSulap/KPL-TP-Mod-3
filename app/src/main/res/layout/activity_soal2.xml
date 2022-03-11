@@ -16,7 +16,7 @@
         android:gravity="center">
 
     <Button
-        android:id="@+id/btnSoal1"
+        android:id="@+id/btnKunci"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="Kunci pintu"
@@ -24,7 +24,7 @@
         />
 
     <Button
-        android:id="@+id/btnSoal2"
+        android:id="@+id/btnBuka"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="buka pintu"
@@ -37,7 +37,7 @@
         android:id="@+id/txtState"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="idle"
+        android:text="terkunci"
         android:textSize="20dp"
         android:gravity="center"/>
 
