@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Soal2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/btnSoal1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Kunci pintu"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnSoal2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="buka pintu"
+        android:layout_marginLeft="10dp"
+        />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/txtState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="idle"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
